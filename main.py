@@ -45,8 +45,9 @@ def encrypt(text, shift):
   print(new_encoded_text)
 
   cipher_text = ''.join(new_encoded_text)
-  print(f"The encoded text is {cipher_text}")
-  
+
+
+  print(f"The encoded text is {cipher_text}") 
 
     ##HINT: How do you get the index of an item in a list:
     #https://stackoverflow.com/questions/176918/finding-the-index-of-an-item-in-a-list
