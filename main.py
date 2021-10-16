@@ -49,6 +49,19 @@ def encrypt(text, shift):
 
   print(f"The encoded text is {cipher_text}") 
 
+  # BEST CODE!!!
+  # element in alphabet sould be duplicated
+  #______________________
+  # cipher_text = ""
+  # for letter in text:
+  #   position = alphabet.index(letter)
+  #   new_position = position + shift
+  #   new_letter = alphabet[new_position]
+  #   cipher_text += new_letter
+  # print(f"The encoded text is {cipher_text}")
+  #______________________
+  # BEST CODE!!!
+
     ##HINT: How do you get the index of an item in a list:
     #https://stackoverflow.com/questions/176918/finding-the-index-of-an-item-in-a-list
 
